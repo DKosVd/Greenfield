@@ -1,0 +1,149 @@
+.third {
+    display: block;
+    position: relative;
+    width: 1920px;
+    background: #FFFFFF;
+    height: 980px;
+    overflow: hidden;
+    .visual_left {
+        position: absolute;
+        width: 643px;
+        height: 980px;
+        left: 0px;
+        top: 0px;
+    div {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        animation: changeTime 9s infinite;
+    }
+    .summer {
+        img {
+            transition: all 2s;  
+        }
+        animation-delay: 0s;
+    }
+        .autumn {
+            img {
+                transition: all 2s;  
+            }
+            animation-delay: 4.5s;
+        }
+        
+    }
+    .right_img {
+        position: absolute;
+        width: 593px;
+        height: 376px;
+        left: 1200px;
+        top: 0px;
+        z-index: 10;
+        img {
+            transition: all 2s;  
+        }
+    }
+    .main_text {
+        position: absolute;
+        width: 823px;
+        height: 355px;
+        left: 740px;
+        top: 481px;
+        h2 {
+            font-family: PlayfairDisplay;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 70px;
+            line-height: 70px;
+            color: #393838;
+            margin-top: 0px;
+            margin-bottom: 45px;
+        }
+        p{
+            font-family: Ubuntu;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 30px;
+            letter-spacing: -0.2px;
+            color: #393838;
+            width: 823px;
+            height: 79px;
+        }
+        .digit {
+            font-family: Petersburg;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 35px;
+            line-height: 45px;
+            letter-spacing: -0.28341px;
+            color: #CCDACF;
+    }
+    }
+    .leafs {
+        .leaf_5 {
+            position: absolute;
+            width: 116px;
+            height: 100px;
+            left: 1360.04px;
+            top: 436.43px;
+            img {
+                position: relative;
+                right:-250px;
+            }
+        }
+        .leaf_2 {
+            position: absolute;
+            width: 200px;
+            height: 126px;
+            left: 653.81px;
+            top: 326.94px;
+            img {
+                position: relative;
+                top: 110px;
+            }
+        }
+        .leaf_4 {
+            position: absolute;
+            width: 122px;
+            height: 80px;
+            left: 1617.96px;
+            top: 943.3px;
+            img {
+                position: relative;
+                top:100px;
+            }
+        }
+    }
+    .menu_header {
+        overflow: hidden;
+        .left {
+            z-index: 3;
+        }
+        .logo {
+            img {
+                transition: all 2s;
+            }
+            img:nth-child(1) {
+                position: relative; 
+                right: -1100px;
+            }
+            img:nth-child(2) {
+                position: absolute;
+                right: -1100px;
+            }
+        }
+    }
+}
+
+
+
+
+
+@keyframes changeTime {
+    0%   { opacity: 0; }
+    11%   { opacity: 1; }
+    33%  { opacity: 1; }
+    44%  { opacity: 1; }
+    100% { opacity: 0; }
+}

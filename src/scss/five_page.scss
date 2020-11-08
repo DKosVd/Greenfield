@@ -1,0 +1,136 @@
+.five {
+    display: block;
+    width: 1920px;
+    background: #FFFFFF;
+    position: relative;
+    height: 980px;
+    overflow: hidden;
+    .left_img {
+        position: absolute;
+        width: 661px;
+        height: 853px;
+        left: 1920px;
+        top: 0px;
+        transition: all 1s;
+        z-index: 2;
+        background: url(../img/img_bg.jpg);
+    }
+    .main_text {
+        position: absolute;
+        width: 892px;
+        height: 251px;
+        left: 970px;
+        top: 234px;
+        h2 {
+            font-family: PlayfairDisplay;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 70px;
+            line-height: 70px;
+            color: #393838;
+            margin-top: 0px;
+            margin-bottom: 45px;
+        }
+        p {
+            font-family: Ubuntu;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 30px;
+            letter-spacing: -0.2px;
+            color: #393838;
+        }
+    }
+    .btn_green {
+        position: absolute;
+        width: 269px;
+        height: 72px;
+        left: 1920px;
+        top: 565px;
+        background: #FFFFFF;
+        border: 1px solid black;
+        text-align: center;
+        border:6px solid #066035;
+        transition: all 2s;
+        z-index: 4;
+        cursor: pointer;
+        span {
+            display: inline-block;
+            position: relative;
+            margin: 21px 45px;
+            margin-top: 21px;
+            color: #066035;
+            font-family: OpiumNewC;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 30px;
+            letter-spacing: -0.36px;
+        }
+        &:hover {
+            transition: 2s;
+            background: linear-gradient(180deg, #066035 0%, #074627 100%);
+            span {
+                transition: 1s;
+                color: #fff;
+            }
+        }
+        
+    }
+    .collage {
+        position: absolute;
+        width: 1055px;
+        height: 657px;
+        left: 1700px;
+        top: 323px;
+        z-index: 3;
+        transition: all 1.5s;
+        background: url(../img/collage.jpg);
+    }
+    .leaf_3 {
+        position: absolute;
+        width: 228px;
+        height: 220px;
+        left: 1605px;
+        top: 1000px;
+        background: url(../img/leaf_3.jpg);
+    }
+    .leaf_2 {
+        position: absolute;
+        width: 188px;
+        height: 120px;
+        left: 759.78px;
+        top: 300px;
+        background: url(../img/leaf_2.jpg);
+    }
+    .leaf_1 {
+        position: absolute;
+        width: 138px;
+        height: 85px;
+        left: 1920px;
+        top: 333.47px;
+        background: url(../img/leaf_1.jpg);
+    }
+    .menu_header {
+        overflow: hidden;
+        .left {
+            z-index: 3;
+            img {
+                right:0;
+            }
+        }
+        .logo {
+          
+            img:nth-child(1) {
+                transition: all 4s;
+                position: relative; 
+                right: -1100px;
+            }
+            img:nth-child(2) {
+                transition: all 3.5s;
+                position: absolute;
+                right: -1100px;
+            }
+        }
+    }
+}

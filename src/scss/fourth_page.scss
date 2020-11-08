@@ -1,0 +1,84 @@
+.fourth {
+    display: block;
+    position: relative;
+    width: 1920px;
+    background: #FFFFFF;
+    height: 980px;
+    overflow: hidden;
+    .preview {
+        position: absolute;
+        width: 1706px;
+        height: 723px;
+        left: 107px;
+        top: 133px;
+        margin-left: 25px;
+        img {
+            transition: all 2s;
+            position: absolute;
+            right: -1750px;
+        }
+        .icon_play {
+            position: absolute;
+            width: 152px;
+            cursor: pointer;
+            height: 152px;
+            top: 0;
+            right: -2020px;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+            background: url(../img/icon_play.jpg);
+            transition: all 3s;
+            &:hover {
+                opacity: 0.5;
+            }
+        }
+    }
+    .menu_header {
+        .left {
+            z-index: 3;
+        }
+    }
+}
+
+ @keyframes mask {
+        0% {
+            right: -1750px;
+        }
+        20% {
+            right: -1400px;
+        }
+        40% {
+            right: -1050px;
+        }
+        60% {
+            right: -700px;
+        }
+        80%{
+            right: -350px;
+        }
+        100% {
+            right:40px;
+        }
+}
+
+@keyframes icon {
+    0% {
+        right: -2020px;
+    }
+    20% {
+        right: -1616px;
+    }
+    40% {
+        right: -1212px
+    }
+    60% {
+        right: -808px;
+    }
+    80% {
+        right: -404px;
+    }
+    100% {
+        right: 0px;
+    }
+}

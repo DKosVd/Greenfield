@@ -1,0 +1,141 @@
+.second {
+    display: block;
+    position: relative;
+    width: 1920px;
+    background: #FFFFFF;
+    height: 980px;
+    overflow: hidden;
+    .left_tea {
+        position: absolute;
+        width: 602px;
+        top: 115px;
+        height: 1080px;
+        left: 120px;
+        background: url(../img/left_tea.jpg) no-repeat;
+        transition: all 2s; 
+    }
+    .right_tea {
+        position: absolute;
+        width: 605px;
+        height: 405px;
+        left: 1276px;
+        top: 597px;
+        background: url(../img/right_tea.jpg) no-repeat;
+        transition: all 2s; 
+    }
+    .main_text {
+        position: absolute;
+        width: 1053px;
+        height: 342px;
+        left: 750px;
+        top: 255px;
+            h2 {
+                font-family: PlayfairDisplay;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 70px;
+                line-height: 70px;
+                color: #393838;
+                margin-bottom: 45px;
+                margin-top: 0;
+            }
+            p {
+                font-family: Ubuntu;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                width: 898px;
+                height: 79px;
+                line-height: 30px;
+                letter-spacing: -0.2px;
+                color: #393838; 
+            }
+            .digit {
+                position: absolute;
+                font-family: Petersburg;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 35px;
+                line-height: 45px;
+                letter-spacing: -0.28341px;
+                color: #CCDACF;
+                margin: 0;
+                margin-top: 70px;
+            }
+    }
+    .leafs {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        overflow: hidden;
+        .leaf_3 {
+            position: absolute;
+            width: 240px;
+            height: 222px;
+            left: 492px;
+            top: 45.11px;
+            z-index: 1;
+            img {
+                position: absolute;
+                top: 500px;
+            }
+        }
+        .leaf_4 {
+            position: absolute;
+            width: 120px;
+            height: 111.54px;
+            left: 1627.51px;
+            top: 567.66px;
+            img {
+                position: absolute;
+                right: -311px;
+            }
+        }
+        .leaf_2 {
+            position: absolute;
+            width: 185.04px;
+            height: 120px;
+            left: 976px;
+            top: 841.39px;
+            img {
+                position: absolute;
+                bottom: -123px;
+            }
+        }
+    }
+    .popup {
+        z-index: 3;
+    }
+    .menu_header {
+        overflow: hidden;
+        .logo {
+            img {
+                transition: all 2s;
+            }
+            img:nth-child(1) {
+                position: relative; 
+                right: -1100px;
+            }
+            img:nth-child(2) {
+                position: absolute;
+                right: -1100px;
+            }
+        }
+    }
+}
+
+@keyframes LogoSubAndMain {
+    20% {
+        right: -1100px;
+    }
+    70% {
+        right: 400px;
+    }
+    100% {
+        right:-20px;
+    }
+}
+
+
